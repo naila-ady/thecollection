@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@sanity/client": "^6.24.1",
+    "axios": "^1.7.9"
+  },
+
+  "scripts": {
+  "dev": "next dev --turbopack",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "import-data": "node sanity-migration/dist/importData.js"
+}
+}
